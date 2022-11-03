@@ -1,6 +1,6 @@
-Feature: Add Skill functionality
+Feature: Verify Skill API's
 
-  Scenario: Test if a skill can be added successfully
-    Given Skill payload
-    When User click saveSkill button
-    Then Skill saved successful with status code 200
+  Scenario: Test if Skill can be added successfully
+    Given Skills payload
+    When user hit "AddSkillAPI" with "POST" http request
+    Then Skill saved successfully with status code 200

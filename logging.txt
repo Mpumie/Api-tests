@@ -1,0 +1,38 @@
+Request method:	POST
+Request URI:	http://localhost:4300/api/v1/access-control/sign-in
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "username": "Test",
+    "password": "Philasande@1715"
+}
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: 0
+x-frame-options: SAMEORIGIN
+content-type: application/json;charset=UTF-8
+transfer-encoding: chunked
+date: Thu, 20 Oct 2022 13:05:12 GMT
+connection: close
+
+{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJUZXN0IiwiaWF0IjoxNjY2MjcxMTEyLCJ1c2VyX2lkIjoiOCIsImVtYWlsIjoia3dhbmQudGVzdEBnbWEuY29tIiwibmFtZSI6Ikt3YW5kZSBUZXN0Iiwicm9sZXMiOlsiRU1QTE9ZRVIiXX0.zngRiTCtGxZP0kmwuA3F06juG_TGTj41jNNOfQ9JAh0",
+    "userId": 8,
+    "employeeId": null,
+    "roles": [
+        "EMPLOYER"
+    ]
+}
